@@ -1,0 +1,262 @@
+
+.previous-project {
+    background: url(../img/projects/straightthug.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+/* HEADER TITLE */
+
+.header-title svg {
+    width: 42%;
+}
+
+.header-title h1 {
+    margin: 1% auto; 
+}
+
+/* FIRST SECTION */
+
+.first-section {
+    position: relative;
+    margin: auto;
+}
+
+.first-section .main-title {
+    font-family: "Roboto_Thin", sans-serif;
+    font-size: 500%;
+    text-align: center;
+    margin-bottom: 5%; 
+}
+
+.first-section .description {
+    text-align: center;
+    margin-bottom: 9%;
+    width: 86%;
+}
+
+.description a {
+    display: inline;
+    padding: 3px 0;
+    background: url("../img/bg_links.png") repeat-x;
+    background-position: 0 -2px;
+    transition: all 0.2s ease-out;
+}
+
+.description a:hover {
+    background-position: 0 -41px;
+    color: white;
+}
+
+#lineart-1 {
+    width: 30%;
+    position: absolute;    
+    top: -30%;
+    left: 78%;
+}
+
+#lineart-2 {
+    width: 4%;
+    position: absolute;
+    top: 129%;
+    left: 80%;
+}
+
+/* MAIN SECTION */ 
+
+.main-section {
+    position: relative;
+}
+
+#tee-1, #tee-2, #tee-3 {
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+#tee-1 {
+    display: block;
+    width: 65%;
+    left: -9%;
+    z-index: -5;
+}
+
+#tee-2 {
+    display: block;
+    width: 60%;
+    margin-top: 22.5%;
+    left: 42.5%;
+}
+
+#tee-3 {
+    display: block;
+    width: 60%;
+    margin-top: 99%;
+    left: 42.5%;
+}
+
+.cta-aside {
+    position: absolute;
+    text-align: center;
+    margin-top: 108.5%;
+    left: 16%;
+}
+
+.cta-text {
+    font-family: "Roboto_Regular", sans-serif;
+    font-size: 190%;
+    letter-spacing: 1px;
+    line-height: 45px;
+    margin-top: -2%;
+    margin-left: -5%;
+}
+
+.cta-text a {
+    display: inline;
+}
+
+.cta-text span {
+    display: block;
+}
+
+.cta-aside img {
+    position: absolute;
+    z-index: -1;
+    width: 180%;
+    top: -47%;
+    left: -45%;
+}
+
+#lineart-3 {  
+    width: 10%;
+    position: relative;
+    margin-top: 153%;
+}
+
+.t_player {
+    margin-top: 7%;
+    margin-left: 3%;
+}
+
+.t_player img:first-child {
+    width: 50%;
+}
+
+.t_player-text {   
+    margin-top: -2%; 
+    margin-left: -6%;
+    width: 55%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.t_player-text .main-title, .end-section .main-title {
+    margin: 45% auto 10% auto;
+    font-family: "Roboto_Thin", sans-serif;
+    font-size: 500%;
+    line-height: 45px;
+}
+
+.t_player-text .description, .end-section .description {
+    position: relative;
+    margin: 3% auto;
+    font-family: "Roboto_Regular", sans-serif;
+    font-size: 190%;
+    letter-spacing: 1px;
+    line-height: 45px;
+}
+
+#lineart-4 {
+    position: absolute;
+    width: 22%;
+    right: 0;
+    top: 74%;
+}
+
+/* END SECTION */ 
+
+.end-section {
+    text-align: center;
+}
+
+.end-section .main-title {
+    margin: 9% auto 6% auto;
+}
+
+.t_player-text .main-title {
+    margin: 30% auto 8% 14%;
+}
+
+.t_player-text .description {    
+    margin: 3% 14%;
+}
+
+.end-section .description {
+    width: 85%;
+    margin: auto;
+}
+
+.end-section .first-line,
+.end-section .second-line, 
+.end-section .third-line   {
+    margin: 8.5% auto;
+}
+
+.t-tobe {
+    margin: 0 2%; 
+    width: 38%;
+    display: inline-block;
+}
+
+.end-section .first-line {
+    position: relative;
+}
+
+.first-line .cta-aside {
+    position: absolute;
+    top: 0;   
+    margin-top: 37%;
+    left: 87%;
+    width: 15%;
+}
+
+.first-line .cta-text {
+    position: relative;
+    z-index: 10;
+    left: -10%;
+    margin-top: -16%;
+}
+
+.first-line .cta-aside img {
+    width: 135%;
+    z-index: 1;
+    top: -116%;
+    left: -26%;
+}
+
+.third-line {
+    position: relative;
+    z-index: -2;
+}
+
+#lineart-5 {
+    position: absolute;
+    top: -18%;
+    left: -5%;
+    width: 18%;
+}
+
+/* FOOTER */
+
+footer {
+    position: relative;
+    margin-top: 33%;
+}
+
+#bg-footer {
+    position: absolute;
+    width: 118%;
+    height: auto;
+    left: -8.8%;
+    margin-top: -95.7%;
+    z-index: -1;
+}

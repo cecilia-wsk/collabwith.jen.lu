@@ -1,0 +1,388 @@
+/* FULL SIZE image project */
+
+.next-project {
+    background: url(../img/projects/cachemonet.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+.previous-project {
+    background: url(../img/projects/7on7nyc.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+.header-title svg {
+    width: 92%;
+}
+
+/* FIRST SECTION */ 
+
+.first-section .main-title {
+    text-align: center;
+    position: relative;
+    margin: 8% auto;
+}
+
+#lineart-1 {
+    position: absolute;
+    width: 5%;
+    left: 100%;
+    top: 54%;
+}
+
+/* GIF IMAGES HEADER */
+
+.gif-bg {
+    position: absolute;    
+    z-index: -1;
+    width: 80%;
+    left: 8%;
+}
+
+.gif-bg img {
+    position: absolute;
+    width: 12.5%;
+}
+
+/* POSITION */
+
+#gif-1 {
+    width: 25%;
+    left: 2.5%;
+}
+#gif-2 {
+    width: 25%;
+    left: 40%;
+}
+#gif-3 {
+    width: 25%;
+    left: 65%;
+}
+#gif-4 {
+    margin-top: 25%;
+    left: 2.5%;
+}
+#gif-5 {
+    margin-top: 25%;
+    left: 15%;
+}
+#gif-6 {
+    margin-top: 25%;
+    left: 27.5%;
+}
+#gif-7 {
+    width: 25%;
+    margin-top: 25%;
+    left: 40%;
+}
+#gif-8 {
+    margin-top: 25%;
+    left: 65%;
+}
+#gif-9 {
+    margin-top: 25%;
+    left: 77.5%;
+}
+#gif-10 {
+    margin-top: 37.5%;
+    left: 15%;
+}
+#gif-11 {
+    margin-top: 37.5%;
+    left: 27.5%;
+}
+#gif-12 {
+    margin-top: 37.5%;
+    left: 65%;
+}
+#gif-13 {
+    margin-top: 37.5%;
+    left: 77.5%;
+}
+#gif-14 {
+    margin-top: 37.5%;
+    left: 90%;
+}
+#gif-15 {
+    margin-top: 37.5%;
+    left: 102.5%;
+}
+#gif-16 {
+    width: 25%;
+    margin-top: 50%;
+    left: 27.5%;
+}
+#gif-17 {
+    margin-top: 62.5%;
+    left: 52.5%;
+}
+#gif-18 {
+    margin-top: 62.5%;
+    left: 65%;
+}
+#gif-19 {
+    width: 25%;
+    margin-top: 62.5%;
+    left: 77.5%;
+}
+#gif-20 {
+    margin-top: 87.5%;
+    left: 77.5%;
+}
+#gif-21 {
+    width: 25%;
+    margin-top: 100%;
+    left: 77.5%;
+}
+
+/* ONLINE */
+
+.online {
+    position: relative;
+    width: 37%;
+    text-align: right;
+    margin-left: 33%;
+    margin-top: 88%;
+}
+
+#lineart-2 {
+    width: 40%;
+    position: absolute;
+    left: -77%;
+    top: 10%;
+}
+
+.online .online-text {    
+    margin-top: -11%;
+}
+
+.online .main-title {
+    margin-left: 7%;
+}
+
+.online .main-title, 
+.offline .main-title {
+    text-align: right;
+    font-family: "Roboto_Thin", sans-serif;
+    font-size: 700%;
+}
+
+.online .description {
+    margin: 10% 0;
+    width: 90%;
+}
+
+/* OFFLINE */
+
+.offline {
+    position: relative;
+    margin: 9.5% auto 10.5% auto;
+}
+
+#jpg-1, #jpg-2 {
+    z-index: -1;
+    position: relative;
+    width: 73%;   
+}
+
+#jpg-1 figcaption, #jpg-2 figcaption {
+    position: absolute;
+}
+
+#jpg-1 {
+    left: 0.55%;
+}
+
+#jpg-2 {
+    left: 36%;
+    margin-top: -6%;
+}
+
+#jpg-1 figcaption {
+    top: 76.5%;
+    left: calc(50% - 107.5px);
+}
+
+#jpg-2 figcaption:nth-of-type(1) {
+    top: 84%;
+    left: calc(28% - 68.5px);
+}
+
+#jpg-2 figcaption:nth-of-type(2) {
+    top: 84%;
+    left: calc(72% - 97.5px);
+}
+
+.offline-text {
+    position: absolute;
+    top: 3.8%;
+    left: 65.5%;
+}
+
+.offline .main-title {
+    text-align: left;
+    margin: 32% 0 5% -1%;
+}
+
+.offline .description {
+    width: 101%;
+    margin: 15% 0;
+    text-align: left;
+}
+
+.offline .description a {
+    display: inline;
+    padding: 3px 0;
+    background: url("../img/bg_links.png") repeat-x;
+    background-position: 0 -2px;
+    transition: all 0.2s ease-out;
+}
+
+.offline .description a:hover {
+    background-position: 0 -41px;
+    color: white;
+}
+
+.offline .cta-aside {
+    position: absolute;
+    text-align: center;
+    width: 19%;
+    top: 50%;
+    left: 15.9%;
+}
+
+.offline .cta-text {
+    width: 46%;
+    font-family: "Roboto_Regular", sans-serif;
+    font-size: 190%;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 31%;
+    top: calc(50% - 70px);
+    line-height: 45px;
+    z-index: 5;
+}
+
+.offline .cta-text a {
+    display: inline;
+}
+
+.offline .cta-aside img {
+    width: 130%;
+}
+
+.tee-container {
+    position: relative;   
+}
+
+.first-section figure {
+    display: inline-block;
+}
+
+.first-section figure img {
+    width: 100%;
+}
+
+.first-section figcaption { 
+    text-align: center;
+    font-family: "Roboto_Regular", sans-serif;
+    font-size: 105%;
+    letter-spacing: 1px;
+}
+
+.first-section figcaption p {
+    margin: 5px 0;
+}
+
+#tee-1 {
+    width: 40%;
+}
+#tee-1 figcaption {
+    margin-top: 9%;
+}
+
+#tee-2 {
+    width: 20%;
+    margin-left: 6%;
+}
+
+#tee-3 {
+    width: 20%;
+    margin-left: 12%;
+}
+
+#tee-2 img, #tee-3 img {
+    margin-bottom: 17.5%;
+}
+
+.first-section .video-main {
+    width: 100%;
+    margin: auto;
+}
+
+.first-section video {
+    cursor: url("../img/cursor/ui_audio_play.png"), pointer;
+}
+
+/* END SECTION */
+
+.end-section {
+    text-align: center;
+    position: relative;
+}
+
+.end-section video,
+#video-mobile {
+    width: 70%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+    margin-top: 6%;
+    left: -3.7%;
+}
+
+#video-mobile {
+    display: none;
+}
+
+.end-section svg {
+    margin: -20% auto 5% auto;
+    width: 78.5%;
+}
+
+.end-section img {
+    position: absolute;
+    width: 15%;
+}
+
+#lineart-3 {
+    top: 166%;
+    left: 65%;
+}
+
+#lineart-4 {
+    top: 0;
+    left: 0;
+}
+
+/* FOOTER PRESS / PARTNERS LINK */
+
+footer {
+    margin-top: 13.5%;
+}
+
+.footer-links {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.partners, .press {
+    margin: 6% auto;
+}
+
+.partners a, .press a {
+    display: inline;
+    margin: 0 1%;
+}
+

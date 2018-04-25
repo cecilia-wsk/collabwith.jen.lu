@@ -1,0 +1,330 @@
+section div a {
+    cursor: url("../img/cursor/cursor.png"), pointer; 
+}
+
+/* LANDING ANIMATION */
+
+.landing {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.landing img {
+    position: fixed;
+    width: 10%;
+    top: 0;
+    left: 45%;
+    z-index: -1;
+}
+
+#landing-svg {
+    text-align: center;
+    position: absolute;
+    width: 65%;
+    top: 100%;
+    left: 17.5%;
+}
+
+.landing .text div {
+    position: fixed;
+    font-family: "Roboto_Black", sans-serif;
+    font-size: 120%;
+}
+
+#welcome {
+    width: 79.88px;
+    top: 18%;
+    left: calc(50% - 39.94px);
+}
+
+#to {
+    width: 17.09px;
+    top: 49%;
+    left: calc(50% - 8.54px);
+}
+
+nav .landing-on {
+    display: none;
+}
+
+/* CONTAINER */
+.container {
+    margin-top: 100px;
+    position: relative;
+    z-index: 10;
+}
+/* HOVER TITLE */
+
+.hover-title {
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+	z-index: 100;
+}
+
+/* FIRST SECTION */
+
+.first-section {
+	margin: 15% auto 10% auto;
+	width: 85%;
+}
+
+.first-section div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#lineart-1 {
+	position: absolute;
+    width: 35%;
+    left: 75%;
+    top: 81%;
+}
+
+.section-feelthatshit img:not(:nth-of-type(1)) {
+	position: absolute;
+}
+
+.section-feelthatshit {
+	position: relative;
+	text-align: center;
+	width: 45%;
+}
+
+.section-feelthatshit img {
+	margin-left: -8%;
+	width: 60%;
+}
+
+.section-7on7nyc {
+    text-align: left;
+    margin-left: 18%;
+    width: 30%;
+}
+
+.section-7on7nyc a {
+    position: relative;
+    z-index: 1;
+}
+
+.section-7on7nyc img {
+	width: 90%;
+}
+
+#fts-1 {
+    top: 67%;
+	left: 48%;
+    width: 20%;
+}
+
+#fts-2 {
+	top: 65%;
+    left: 33%;
+    width: 17%;
+}
+
+#fts-3 {    
+	top: -3%;
+    left: 64%;
+    width: 28%;
+}
+
+/* SECOND SECTION */ 
+
+.second-section {
+	width: 95%;
+	margin: auto;
+	text-align: left;
+}
+
+.second-section div, 
+.section-vimeo-1 {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 30%;
+}
+
+.section-cachemonet img {
+	width: 100%;
+}
+
+.section-simplify {
+    margin: 0 7%;
+}
+
+.section-simplify img {
+	width: 100%;
+}
+
+.section-vimeo-1 {
+	width: 20%;
+}
+
+.section-vimeo-1 img {
+    width: 100%;
+}
+
+/* THIRD SECTION */
+
+.third-section {
+	position: relative;
+	width: 80%;
+	margin: 15% auto;
+}
+
+.third-section img {
+	position: absolute;
+}
+
+#abc-1 {
+	position: relative;
+    width: 42%;
+}
+
+#abc-2 {
+    width: 37%;
+    left: 3%;
+    top: 31%;
+    z-index: 5;
+}
+
+#abc-3 {
+    width: 49%;
+    left: 32.5%;
+    top: 9%;
+    z-index: 4;
+}
+
+#abc-4 {
+    width: 37%;
+    left: 64%;
+    top: 40%;
+    z-index: 5;
+}
+
+#lineart-2 {
+    width: 12%;
+    left: 87%;
+    top: -16%;
+    z-index: -1;
+}
+
+/* FOURTH SECTION */
+
+.fourth-section {
+	position: relative;
+	margin: 20% auto 15%;
+}
+
+.section-vimeo-2 img,
+.section-tshirts img {
+	position: absolute;
+}
+
+#lineart-3 {
+    width: 22%;
+    left: -3.5%;
+}
+
+#vimeo-2 {
+    width: 15%;
+    left: 9%;
+    margin-top: 5%;
+}
+
+#vimeo-2:hover {
+    cursor: url("../img/cursor/ui_hand_point.png"), pointer; 
+}
+
+#resize-1 {
+    position: absolute;
+    width: 10%;
+    left: 22.8%;
+    top: 79.2%;
+    z-index: 1;
+}
+
+#resize-2 {
+    position: relative;
+    width: 40%;
+    margin-top: 15%;
+    left: 29%;
+}
+
+#tshirt-1 {
+    width: 27%;
+    left: 73%;
+    top: 25%;
+}
+
+#tshirt-2 {
+    width: 15%;
+    left: 90%;
+    top: 63%;
+}
+
+/* FIFTH SECTION */
+
+.fifth-section {
+	position: relative;
+	margin-bottom: 20%;
+}
+
+.fifth-section img {
+	position: absolute;
+}
+
+#thug-1 {
+	position: relative;
+	width: 20%;
+	left: 40%;
+	margin-top: 20%;
+	z-index: 4;    
+}
+
+#thug-2 {
+	width: 23%;
+    left: 53%;
+    top: 13%;
+}
+
+#thug-3 {
+    left: 53%;
+    top: 64%;
+    width: 10%;
+}
+
+#thug-4 {    
+	top: 70%;
+    left: 33%;
+    z-index: 1;
+    width: 12%;
+}
+
+#thug-5 {
+    width: 20%;
+    left: 25%;
+}
+
+#thug-6 {    
+	top: 53%;
+    left: 36%;
+    z-index: 0;
+    width: 12%;
+}
+
+#thug-7 {
+    left: 69%;
+    width: 11%;
+    top: 24%;
+}
+
+#lineart-4 {    
+	top: -5%;
+    left: 85%;
+    width: 10%;
+}

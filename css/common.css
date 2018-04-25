@@ -1,0 +1,293 @@
+html {
+	overflow-x: hidden;
+}
+
+::selection {
+	background-color: black;
+	color: white;
+}
+
+::-moz-selection {
+	background-color: black;
+	color: white;
+}
+
+html, 
+nav a,
+.scrollTo {
+	cursor: url("../img/cursor/cursor.png"), pointer; 
+}
+
+a {
+	cursor: url("../img/cursor/ui_hand_point.png"), pointer; 
+}
+
+#top {
+	position: fixed;
+	top: 0;
+}
+
+/* HEADER NAVIGATION */
+
+nav a,
+.progress-bar {
+	font-family: "Roboto_Black", sans-serif;
+	position: fixed;
+	z-index: 1500;
+}
+
+nav a:not(.progress-bar-link) {
+    padding: 4px;
+    background: url("../img/bg_links.png") repeat-x;
+    background-position: 0 -15px;
+    transition: all 0.2s ease-out;
+}
+
+nav a:not(.progress-bar-link):hover {
+    background-position: 0 -41px;
+    color: white;
+}
+
+.next-project,
+.previous-project {
+	position: fixed;
+	top: 0;    
+	height: 100%;
+    width: 100%;
+    z-index: -1000;
+	opacity: 0;
+	transition: opacity .3s ease;
+}
+
+.previous {
+	top: calc(50% - 30px);
+	left: 9px;
+	transform: rotate(-90deg);
+}
+
+.next {
+	top: calc(50% - 21.5px);
+	right: 24px;
+	transform: rotate(90deg);
+}
+
+.projects {
+	left: 50px;
+	top: 4.5%;
+}
+
+.about {
+	right: 50px;
+	top: 4.5%;
+}
+
+/* PROGRESS BAR */
+
+.progress-bar {
+	top: 3.1%;
+	left: calc(50% - 81.6px);	
+	width: 163.25px;
+}
+
+.progress-container {
+	width: 0%;
+    z-index: 1501;
+    overflow: hidden;
+	position: absolute;
+    height: 40px;
+    background-color: black;  
+}
+
+.universal {
+	font-size: 120%;
+	padding: 10px 15px;
+}
+
+.inner-label {
+	position: absolute;
+    color: white;  
+}
+
+.label {    
+    color: black; 
+}
+
+/* HEADER TITLE */
+
+.header-title {
+	margin: 14% auto 9% auto;
+	text-align: center;
+}
+
+.header-title a {
+	display: inline;
+}
+
+.header-title svg,
+.end-section svg {
+	width: 70%;
+	text-align: center;
+}
+
+.header-title h1 {
+	font-family: "Roboto_Light", sans-serif;
+	font-size: 310%; 
+}
+
+/* HEADER VIDEO */
+
+.video-main video {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+.video-main {
+	text-align: center;
+}
+
+.video-main video[muted] {
+	cursor: url("../img/cursor/ui_audio_on.png"), pointer;
+}
+
+.video-main figcaption {
+	font-family: "Roboto_Regular", sans-serif;
+	margin: 3% auto;
+	font-size: 105%;
+	letter-spacing: 1px;
+}
+
+/* CONTAINER */
+
+.container {
+	width: 85%;
+	margin: auto;
+}
+
+/* FIRST SECTION */
+
+.main-title, .description {
+	width: 84%;
+	margin: auto;
+}
+
+.first-section .main-title {
+	margin: 8% auto 5% auto;
+	font-family: "Roboto_Light", sans-serif;
+	font-size: 310%;
+    line-height: 65px;
+}
+
+.first-section .description {
+	margin: 3% auto 2% auto;
+	font-family: "Roboto_Regular", sans-serif;
+	font-size: 190%;
+	letter-spacing: 1px;
+    line-height: 45px;
+}
+
+ .link-project { 
+ 	display : inline 
+}
+
+/* FOOTER PARTNERS */
+
+.launchproject text,
+.launchtitle text {
+    transition: fill .4s ease;
+}
+
+.launchproject rect,
+.launchtitle rect {
+  	transform: translateY(100%);
+    fill: black;
+    transition: transform .4s ease;
+}
+
+.launchproject:hover rect,
+.launchtitle:hover rect {
+  transform: translateY(0);
+  fill: black;
+}
+
+.partners h3, 
+.press h3,
+.exhibitions h3,
+.awards h3 {
+	font-family: "Roboto_Regular", sans-serif;
+	font-size: 105%;
+	letter-spacing: 1px;
+	padding: 10px 0;
+}
+
+.partners a, 
+.press a,
+.exhibitions a,
+.awards a {
+	font-family: "Roboto_Regular", sans-serif;
+	font-size: 190%;
+	letter-spacing: 1px;
+    line-height: 45px;
+    display: inline;
+}
+
+/* FOOTER BACK TO TOP */
+
+footer .top {
+	text-align: center;
+	margin: 9% auto;
+	position: relative;
+}
+
+footer .top img {
+	width: 9%;
+	transition: transform .5s ease;
+}
+
+footer .top a {
+	font-family: "Roboto_Regular", sans-serif;
+	padding: 10px;
+	font-size: 105%;
+	letter-spacing: 1px;
+	display: inline-block;
+	position: absolute;
+	left: calc(50% - 25.5px);
+    top: calc(64% - 18px);
+}
+
+/* FOOTER built + logos */ 
+
+footer .construct {
+	text-align: center;
+	margin: 9% auto;
+	font-family: "Roboto_Regular", sans-serif;
+	font-size: 105%;
+	letter-spacing: 1px;
+}
+
+.construct a {
+    display: inline;
+}
+
+footer .logos {
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: -13px;
+}
+
+footer .logos img {
+	margin: 0 4%;
+    vertical-align: middle;
+}
+
+.email {
+    width: 5%;
+}
+
+.busy {
+	width: 9.5%;
+}
+
+.copyright {
+	width: 4%;
+}

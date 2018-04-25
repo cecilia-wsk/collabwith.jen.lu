@@ -1,0 +1,116 @@
+html {
+	overflow: hidden;
+}
+
+html {
+	cursor: url("../img/cursor/ui_close.png"), pointer; 
+}
+
+.main-section div,
+.main-section a {
+	cursor: url("../img/cursor/cursor.png"), pointer; 
+}
+
+/* PROJECTS IMAGES */
+
+.projects-outline div {
+	background-size: cover;
+	position: fixed;
+	top: 0;   
+    width: 100%;
+	height: 100%;
+    z-index: -1000;
+	opacity: 0;
+	transition: opacity .3s ease;
+}
+
+._feelthatshit {
+    background: url(../img/projects/feelthatshit.png) no-repeat center fixed;
+}
+
+._7on7nyc {
+    background: url(../img/projects/7on7nyc.png) no-repeat center fixed;
+}
+
+._simplifythatshit {
+    background: url(../img/projects/simplifythatshit.png) no-repeat center fixed;
+}
+
+._cachemonet {
+    background: url(../img/projects/cachemonet.png) no-repeat center fixed;
+}
+
+._resizethatshit {
+    background: url(../img/projects/resizethatshit.png) no-repeat center fixed;
+}
+
+._abcbook {
+    background: url(../img/projects/abcbook.png) no-repeat center fixed;
+}
+
+._straightthug {
+    background: url(../img/projects/straightthug.png) no-repeat center fixed;
+}
+
+._t_shirts {
+    background: url(../img/projects/t_shirts.png) no-repeat center fixed;
+}
+
+/* MAIN SECTION */
+
+.main-section {
+	text-align: center;
+  	margin-top: 50vh;
+    transform: translateY(-50%);
+}
+
+.first-column, 
+.second-column, 
+.third-column  {
+	font-family: "Roboto_Regular", sans-serif;
+	font-size: 200%;
+	text-align: center;
+	display: inline-block;
+	width: 30%; 
+	vertical-align: top;
+}
+
+.main-section div>div {
+	margin: 25% auto;
+}
+
+.main-section div a {
+	display: inline;
+	letter-spacing: 1px;
+/*	text-decoration: line-through;*/
+/*	-webkit-text-decoration-color: rgba(0,0,0,0);*/
+}
+
+.main-section div a:visited {
+	/*-webkit-text-decoration-color: rgba(0,0,0,1);*/
+}
+
+aside img {
+	position: fixed;
+	z-index: -1001;
+}
+
+#lineart-1 {
+	width: 12%;
+	left: 5%;
+	top: 5%;
+}
+
+#lineart-2 {
+    width: 8%;
+    right: 7%;
+    top: 8%;
+}
+
+#lineart-3 {
+    width: 4%;
+    left: 64.5%;
+    bottom: 9%;
+}
+
+

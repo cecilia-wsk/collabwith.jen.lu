@@ -1,0 +1,204 @@
+/* FULL SIZE image project */
+
+.next-project {
+    background: url(../img/projects/simplifythatshit.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+.previous-project {
+    background: url(../img/projects/feelthatshit.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+/* HEADER */
+
+.header-title svg {
+	width: 50.5%;
+}
+
+.header-title img {
+	position: relative;
+	z-index: -1;
+	max-width: 100%;
+	height: auto;    
+	left: 0;
+    margin-top: -10%;
+}
+
+/* FIRST SECTION */
+
+.first-section {
+	position: relative;
+	margin-top: -1%;
+}
+
+.first-section .main-title {
+    margin: 0 0 5% 7.5%;
+}
+
+.first-section .lineart-1 {
+	position: absolute;
+    top: 9.5%;
+    right: -3%;
+    width: 20%;
+}
+
+.first-section .logo {
+	margin: 7% 0; 
+	width: 35%;
+	position: relative;
+	left: 50%;
+}
+
+/* MAIN SECTION images */
+
+.main-section img {
+	position: relative;
+	height: auto;
+}
+
+.poster {
+	max-width: 52%;
+	margin: 3% 0; 
+}
+
+.lineart-3 {
+	max-width: 35%;
+    z-index: -1;
+	left: -1%;
+    top: -29px;
+}
+
+.branding {
+	max-width: 70%;
+	left: 30%;
+	margin-top: 6.5%;
+}
+
+.video-tablet {
+	position: relative;
+}
+
+.tablet {
+	width: 120%;
+	margin: 10% 0 0 0;
+	left: -10%;
+}
+
+.video-tablet video {
+    position: absolute;
+    /*width: 80.6%;
+    height: auto;
+    top: 17.6%;
+    left: 9.7%;
+    border: 4px solid black;
+    border-radius: 5px;*/
+    width: 79.75%;
+    height: auto;
+    top: 17.83%;
+    left: 10.05%;
+}
+
+.pointing {
+	max-width: 30%;
+	left: 35%;
+}
+
+.lineart-2 {
+	max-width: 40%;
+    left: -33%;
+    top: 180px;
+}
+
+/* mobile section */
+
+.mobile-section {
+	width: 88%;
+	margin: auto;
+    padding: 15% 0 5.5% 0;
+}
+
+.first-mobile, 
+.second-mobile {
+	text-align: center;
+}
+
+.second-mobile {
+	margin-top: 30%;
+}
+
+.left-mobile,
+.right-mobile {
+	width: 44%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.left-mobile img {
+	float: left;
+}
+
+.right-mobile img {
+	float: right;
+}
+
+.frame {
+	position: absolute;
+	width: 63%;
+	z-index: 1;
+}
+
+.mobile-container {
+	margin-top: 14.8%;
+	overflow: hidden;
+}
+
+.mobile-content {
+	width: 62.7%;
+}
+
+#mobile-1-small,
+#mobile-2-small,
+#mobile-3-small,
+#mobile-4-small {
+	display: none;
+	margin: auto;
+}
+
+.mobile-1, .mobile-3 {
+	left: 0;
+}
+
+.mobile-2, .mobile-4 {
+	right: 0;
+}
+
+/* FOOTER */
+
+footer {
+	margin-top: 15.5%;
+	position: relative;
+}
+
+.partners {
+	text-align: center;
+}
+
+.partners div {
+	padding: 0;
+}
+
+.partners a {
+	display: inline;
+}
+
+.logo-gif {
+	position: absolute;    
+	top: 35%;
+    right: -5%;
+}
+
+.logo-gif img {
+	width: 50%;
+}

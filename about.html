@@ -1,0 +1,65 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>About</title>
+    <link rel="stylesheet" href="css/fonts/fonts.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" media="screen and (max-width: 770px)" href="css/common-mobile.css" type="text/css" />
+    <link rel="stylesheet" media="screen and (max-width: 770px)" href="css/about-mobile.css" type="text/css" />
+  </head>
+
+  <body>
+
+    <video autoplay loop><source src="img/about/about.mp4"></video>
+    <div class="bg_about"></div>
+
+    <div class="container">
+
+      <header>
+        <nav>
+          <div class="progress-bar">
+            <a class="universal label progress-bar-link" href="index.html" title="Universalscene">Universalscene</a>
+          </div>
+          <a class="close" href="javascript:history.back()" title="Close"></a>
+        </nav>
+      </header>
+
+      <section class="main-section">
+        <div class="main-title">
+          Hello, we're Tim &amp; Jen. Together, we partner to curate, design &amp; direct a very diverse catalog of creative endeavors. We work with a small yet trusted network of people to bring cool things to life. Let's collab, us@universalscene.co.
+        </div>
+        <div class="social-media-links">
+          <a href="http://universalscene.bigcartel.com" target="_blank">Big Cartel</a>
+          <a href="http://instagram.com/universalscene" target="_blank">Instagram</a>
+          <a href="http://to.be/universalscene" target="_blank">to.be</a>
+          <a href="http://twitter.com/universalscene" target="_blank">Twitter</a>
+          <a href="http://soundcloud.com/universalscene" target="_blank">Soundcloud</a>
+          <a href="http://vimeo.com/universalscene" target="_blank">Vimeo</a>
+        </div>
+      </section>
+
+    </div>
+
+    <script src="js/libs/jquery-3.0.0.min.js"></script>
+    <script src="js/libs/splitext.js"></script>
+    <script src="js/libs/tweenmax.min.js"></script>
+    <script src="js/common.js"></script>
+
+    <script type="text/javascript">
+      $(document).click(function() {
+        history.back(); //Go to the previous page
+      });
+      $(".social-media-links a, nav a, .main-title").click(function(e) {
+        e.stopPropagation(); 
+      });
+    </script>
+
+  </body>
+
+</html>

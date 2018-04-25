@@ -1,0 +1,285 @@
+.main-titl,
+.description {
+    width: 84%;
+}
+
+.first-section {
+    width: 100%;
+}
+
+.header-title svg {
+	width: 73%;
+}
+
+.first-section .cta-text {
+    margin-top: -3%;
+    font-size: 90%;
+    letter-spacing: normal;
+    line-height: 20px;
+}
+
+.first-section .cta-text h1 {
+    font-size: 270%;
+    line-height: 36px;
+}
+
+#gif-1 {
+    margin: 15% 0 40% 0;
+    width: 87%;
+    left: 8%;
+}
+
+#gif-2 {
+    width: 43%;
+    left: -24%;
+    margin-top: 52%;
+}
+
+#gif-3 {
+    width: 43%;
+    left: 10%;
+    margin-top: 57%;
+}
+
+#gif-4 {
+    z-index: -1;
+    width: 41%;
+    left: 52%;
+    margin-top: 59%;
+}
+
+#gif-5 {
+    z-index: -7;
+    width: 45%;
+    left: 80%;
+    margin-top: 61%;
+}
+
+.download-container {
+    margin: 32% auto;
+}
+
+.main-section .right-side .descr {
+    width: 25%;
+    margin-left: 0%;
+}
+
+.download-container div,
+.main-section .left-side .descr, 
+.main-section .right-side .descr {
+	font-size: 90%;
+	line-height: 20px;
+    letter-spacing: normal;
+}
+
+.first-section .cta-aside.cta-2 {
+    width: 25%;
+    top: 101%;
+    left: 22%;
+}
+
+.cta-aside.cta-2 .cta-text {
+	line-height: 20px;
+    margin-top: 43%;
+}
+
+#museum-img {
+    left: -4%;
+    margin-right: 5%;
+}
+
+
+.main-section .left-side .descr, 
+.main-section .right-side .descr {
+    margin-top: 0;
+}
+
+.main-section .left-side .descr {
+    width: 28%;
+    margin-left: -5%;
+}
+
+.main-section .right-side .descr span:not(.minimize), 
+.main-section .left-side .descr span:not(.minimize) {
+	font-size: 70%;
+    letter-spacing: normal;
+    line-height: 20px;
+}
+
+.minimize {
+	text-transform: lowercase;
+}
+
+.main-section .left-side.side-2 .descr {
+	width: 26%;
+	margin-left: 1%;
+}
+
+.video-1 {
+    left: 4%;
+}
+
+.video-2 {
+    left: -3%;
+}
+
+#gif-12 {
+	left: 64%;
+    top: 81%;
+    width: 35%;
+}
+
+.end-section {
+	text-align: center;
+}
+
+.end-section .twitter {
+	text-align: left;
+	width: 90%;
+}
+
+.twitter h1  {
+    letter-spacing: normal;
+	font-size: 90%;
+	line-height: 25px;
+}
+
+.quote-container h1 {
+    letter-spacing: normal;
+    font-size: 125%;
+    line-height: 25px;
+}
+
+.twitter-text {
+    margin-top: 10px;
+	font-size: 100%;
+    line-height: 15px;
+    letter-spacing: normal;
+}
+
+.twitter-text p {
+    width: 90%;
+    font-size: 70%;
+    line-height: 20px;
+}
+
+.twitter-text div {
+    margin-bottom: 3%;
+}
+
+.twitter a {
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.twitter a, .twitter span {
+	font-size: 70%;
+}
+
+.twitter-2 {
+	margin-left: 0;
+}
+
+.twitter-3 {
+	margin-top: 5%;
+}
+
+#gif-13 {
+	width: 27%;
+    top: 22%;
+    left: 66%;
+}
+
+.quote-container {
+    width: 90%;
+    position: static;
+    margin: 5% auto 0 auto;
+}
+
+.quote-container span {
+	font-size: 70%;
+}
+
+.quote-container img {
+    width: 80%;
+    margin-top: -25%;
+}
+
+.end-section {
+	margin-bottom: -5%;
+}
+
+footer svg {
+    width: 86.5%;
+}
+
+#lineart {
+	left: 40%;
+    top: 110%;
+}
+   
+
+/* mobile landscape view */
+@media screen and (orientation: landscape) { 
+
+    .first-section .cta-text {
+        margin-top: 0;
+        font-size: 120%;
+        line-height: 33px;
+    }
+
+    .first-section .cta-text h1 {
+        font-size: 430%;
+        line-height: 70px;
+    }
+    
+    .download-container div, 
+    .main-section .left-side .descr, 
+    .main-section .right-side .descr {
+        font-size: 120%;
+        line-height: 25px;
+        letter-spacing: normal;
+    }
+
+    .cta-aside.cta-2 .cta-text {
+        margin-top: 20%;
+        line-height: 25px;
+    }
+
+    #gif-13 {
+        top: 27%;
+    }
+
+    .twitter h1, .quote-container h1 {
+        letter-spacing: normal;
+        font-size: 120%;
+        line-height: 25px;
+    }
+
+    .quote-container h1 {
+        width: 81%;
+    }
+
+    .twitter-text p {
+        font-size: 100%;
+    }
+
+    .twitter a {
+        background: transparent;
+    }
+
+    .twitter a, .twitter span {
+        font-size: 100%;
+        letter-spacing: 1px;
+    }
+
+    .quote-container h1 {
+        font-size: 165%;
+        line-height: 30px;
+    }
+
+    .quote-container span {
+        font-size: 100%;
+    }
+
+}

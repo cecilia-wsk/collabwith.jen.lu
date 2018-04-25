@@ -1,0 +1,318 @@
+/* FULL SIZE image project */
+
+.next-project {
+    background: url(../img/projects/resizethatshit.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+.previous-project {
+    background: url(../img/projects/cachemonet.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+/* HEADER */
+
+.header-title svg {
+	width: 50.5%;
+}
+
+.header-title img {
+	position: relative;
+	z-index: -1;
+    width: 115%;
+    left: -8%;
+    margin-top: -25%;
+}
+
+/* FIRST SECTION */
+
+.first-section {
+	position: relative;
+	margin: -15% auto 10% auto;
+}
+
+.first-section .main-title {
+	margin: 10% auto 5% auto;
+}
+
+.first-section .description {
+    width: 80%;
+    margin: 0 0 0 7.5%;
+}
+
+.first-section .lineart-1 {
+	position: absolute;
+	margin-top: -43%;
+    right: 10%;
+    width: 10%;
+}
+
+.first-section .logo {
+	margin: 7% 0; 
+	width: 35%;
+	position: relative;
+	left: 50%;
+}
+
+/* MAIN SECTION images */
+
+.pic-container img, 
+.pic-container video {
+	position: absolute;
+	width: 23%;
+}
+
+/* first section  */
+
+.gif-mobile {
+    display: none;
+}
+
+#gif-1,
+#gif-1-mobile {
+    width: 32.8%;
+    left: 4%;
+}
+#gif-1-mobile {
+    margin-top: -2%;
+}
+#gif-2,
+#gif-2-mobile {
+    width: 32.8%;
+    margin-top: 11.55%;
+    left: 30.5%;
+}
+#gif-2-mobile{
+    margin-top: 9.9%;
+}
+#pic-1 {
+    left: 54%;
+}
+#pic-2 {
+    margin-top: 30%;
+    left: 7.5%;
+}
+#pic-3 {
+	margin-top: 30%;
+	left: 54%;
+}
+#pic-4 {
+    margin-top: 30%;
+    left: 77%;
+}
+#pic-5 {
+    position: relative;
+    width: 100%;
+    margin-top: 70%;
+}
+/* s-social */
+
+.s-social {
+    position: relative;
+    margin: 5% 0;  
+}
+
+#social-bg {
+	position: absolute;
+	z-index: -1;
+    left: -8.8%;
+    width: 71%;
+    margin-top: 3%;
+}
+
+.social-text {
+    position: relative;
+    text-align: left;
+    left: 49.5%;
+    width: 42.5%;
+    padding-top: 13%;
+    margin-bottom: 17.8%;
+}
+
+.main-section .main-title,
+.z-zeitgeist .main-title {
+	margin: 10% 19% 5% 0;
+	font-family: "Roboto_Thin", sans-serif;
+	font-size: 700%;
+    line-height: 100px;
+}
+
+.main-section .description,
+.z-zeitgeist .description {
+	margin: 3% auto;
+	font-family: "Roboto_Regular", sans-serif;
+	font-size: 190%;
+	letter-spacing: 1px;
+    line-height: 45px;
+    width: 110%;
+}
+
+.description p {
+	margin: 7% 0; 
+}
+
+.description a {
+    display: inline;
+    padding: 3px 0;
+    background: url("../img/bg_links.png") repeat-x;
+    background-position: 0 -2px;
+    transition: all 0.2s ease-out;
+}
+
+.description a:hover {
+    background-position: 0 -41px;
+    color: white;
+}
+
+#social-pic {
+    position: relative;
+    width: 100%;
+}
+
+/* z-zeitgeist */
+
+.z-zeitgeist {
+	position: relative;
+	text-align: center;
+}
+
+.z-zeitgeist .main-title {
+	margin: 8% auto 4% auto;
+}
+
+.z-zeitgeist .description {
+    width: 85%;
+}
+
+#zeitgeist-bg {
+	position: relative;
+    width: 80%;
+    margin-top: -10%;
+    z-index: -1;
+}
+
+.first-line {
+	margin: 10% 0 6.7% 0; 
+}
+
+.first-line div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.first-line .left-side {
+	width: 45%;
+	position: relative;
+	left: 11%;
+}
+
+.first-line .left-side div, 
+.first-line .left-side p {
+	width: 92%;
+	font-family: "Roboto_Regular", sans-serif;
+	font-size: 190%;
+	letter-spacing: 1px;
+    line-height: 45px;
+    text-align: right;
+}
+
+.first-line .left-side p {
+	margin: 5% 0;
+    font-size: 105%;
+    letter-spacing: 1px;
+}
+
+.first-line .right-side {
+	width: 52%;
+	position: relative;
+    left: 11.5%;
+}
+
+.first-line .right-side img {
+	width: 100%;
+}
+
+.second-line {
+	position: relative;
+}
+
+.second-line #party-2 {
+    position: relative;
+	width: 80%;
+    left: -9%;
+}
+
+.second-line #lineart-2 {
+    position: absolute;
+    width: 20%;
+    left: 76%;
+    top: 52%;
+}
+
+.third-line {
+	position: relative;
+	margin: 9.5% auto 4% auto;
+}
+
+.third-line #lineart-3 {
+	position: absolute;
+    width: 6%;
+    left: -3%;
+    top: 40%;
+}
+
+.third-line #party-3 {
+    position: relative;
+	width: 80%;
+    left: 10%;
+}
+
+/* END SECTION */
+
+.end-section {
+    text-align: center;
+}
+
+.end-section svg {
+    margin: 12% auto 13.5% auto; 
+    width: 78.5%;
+}
+
+/* FOOTER PRESS / PARTNERS LINK */
+
+footer {
+	position: relative;
+    text-align: center;
+}
+
+.footer-links {
+    width: 90%;
+    margin: auto;
+}
+
+.partners {
+    margin: 6% auto;
+}
+
+.partners a, .press a {
+    margin: 0 1%;
+}
+
+#party-4 {
+    position: relative;
+    width: 50%;
+    left: 28%;
+    margin-top: 7%;
+    z-index: -1;
+}
+
+#lineart-4 {
+    position: absolute;
+    width: 2%;
+    top: 43%;
+    left: 25%;
+}
+
+footer .top {
+    margin-top: 1%;
+}

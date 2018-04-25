@@ -1,0 +1,139 @@
+.header-title svg {
+    width: 46%;
+}
+
+#lineart-1 {
+    top: -7%;
+    left: 68%;
+}
+
+#tee-1, #tee-2, #tee-3 {
+    position: static;
+}
+
+#tee-2, #tee-3 {
+    width: 80%;
+    margin: 12% auto;
+}
+
+.cta-aside {
+    z-index: 1;
+    margin-top: -271.5%;
+    left: 56%;
+}
+
+.cta-text {
+    font-size: 70%;
+    letter-spacing: normal;
+    line-height: 15px;
+}
+
+#lineart-3 {
+    position: absolute;
+    margin-top: -237%;
+    left: 70%;
+}
+
+.t_player {
+    margin-left: -17%;
+}
+
+.t_player img:first-child {
+	width: 55%;
+}
+
+.t_player-text {
+	width: 44%;
+}
+
+.t_player-text .main-title {
+    margin: 0% auto 8% 14%;
+}
+
+.first-section .main-title,
+.t_player-text .main-title,
+.end-section .main-title {
+    font-size: 275%;
+    line-height: 39px;
+    margin-bottom: 4.8%;
+}
+
+.t_player-text .description {
+    margin-top: 9%;
+}
+
+.t_player-text .description,
+.end-section .description {
+	font-size: 90%;
+    line-height: 20px;
+	letter-spacing: normal;
+}
+
+.t-tobe {
+    margin: 10% auto;
+    width: 75%;
+    display: block;
+}
+
+.first-line .cta-text {
+    margin-top: -20%;
+}
+
+.first-line .cta-aside {
+    margin-top: 222%;
+    left: 78%;
+}
+
+#lineart-5 {
+    top: -55%;
+    left: 9%;
+    width: 18%;
+    z-index: 1;
+}
+
+#bg-footer {
+    margin-top: -98.7%;
+}
+
+footer .logos {
+    margin-left: -6px;
+}
+
+@media screen and (orientation: landscape) { 
+
+    .first-section .main-title,
+    .t_player-text .main-title,
+    .end-section .main-title {
+        font-size: 420%;
+        line-height: 59px;
+        margin-bottom: 3.8%;
+    }
+
+    .end-section .main-title {
+        margin-bottom: 4.2%;
+    }
+
+    .t_player-text .description, .end-section .description {
+        font-size: 120%;
+        line-height: 25px;
+        letter-spacing: normal;
+    }
+
+    .cta-text {
+        font-size: 120%;
+        line-height: 25px;
+    }
+
+    .end-section .cta-text {
+        margin-top: -15%;
+    }
+
+    .t_player-text .description {
+        margin-top: 8%;
+    }
+
+    #tee-1 {
+        margin-left: -9%;
+    }
+
+}

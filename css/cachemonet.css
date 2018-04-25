@@ -1,0 +1,462 @@
+/* FULL SIZE image project */
+
+.next-project {
+    background: url(../img/projects/abcbook.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+.previous-project {
+    background: url(../img/projects/simplifythatshit.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+/* HEADER TITLE */
+
+.header-title svg {
+    width: 67.5%;
+}
+
+/* FIRST SECTION */ 
+
+.first-section {
+	text-align: center; 
+	position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+.first-section .main-title {
+	margin-top: 9%;
+    width: 90%;
+}
+
+.first-section .description {
+	width: 95%;
+}
+
+.first-section .cta-aside {
+	position: absolute;
+}
+
+.first-section .cta-text h1 {
+	font-family: "Roboto_Thin", sans-serif; 
+	font-size: 380%;
+    line-height: 105px;
+}
+
+.first-section .cta-text {
+	font-family: "Roboto_Regular", sans-serif;
+	font-size: 190%;
+	letter-spacing: 1px;   
+    line-height: 45px; 
+	position: absolute;
+    width: 75%;
+    left: 19.5%;
+    top: 19%;
+}
+
+.first-section .cta-aside.cta-1 {
+	text-align: center;
+    width: 31%;
+    margin-top: -8%;
+    left: -1%;
+}
+
+.first-section .cta-aside img {
+    width: 110%;
+}
+
+/* gif images */
+
+.images-container {    
+	width: 77%;
+    margin: auto;
+    text-align: right;
+	position: relative;
+}
+
+#gif-1 {
+	position: relative;
+	z-index: -5;
+	margin: 10% 0 40% 0;
+	width: 80%;
+	left: 11%;
+}
+
+#gif-2, #gif-3, #gif-4, #gif-5 {
+	position: absolute;
+}
+
+#gif-2 {
+    width: 45%;
+    left: -28%;
+    margin-top: 31%;
+}
+
+#gif-3 {    
+	width: 45%;
+    left: 17%;
+    margin-top: 40%;
+}
+
+#gif-4 {    
+	z-index: -1; 
+    width: 43%;
+    left: 66%;
+    margin-top: 50%;
+}
+
+#gif-5 {
+	z-index: -7;
+    width: 45%;
+    left: 99%;
+    margin-top: 50%;
+}
+
+.description.descr-2 {
+	margin-bottom: 5%;
+}
+
+.first-section div:nth-of-type(4) {
+    position: relative;
+    left: 3%;
+}
+
+.proj-container img {
+	width: 102.5%;
+}
+
+#gif-6 {
+	position: absolute;
+    z-index: 2;
+    top: 17.7%;
+    left: 14%;
+    width: 62.5%;
+}
+
+/* flag images */ 
+
+.flag-container {
+	position: relative;
+}
+
+.flag-container img {
+	position: absolute;
+	margin-top: 3.5%;
+	width: 27%;
+}
+
+#flag-1 {
+	left: -7%;
+}
+
+#flag-2 {
+	left: 20%;
+}
+
+#flag-3 {    
+    left: 50%;
+    margin-top: 5%;
+}
+
+#flag-4 {
+	left: 83%;
+}
+
+/* download container */
+
+.download-container {
+	width: 100%;
+	margin: 32% auto 20% auto;
+}
+
+.download-container div {
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	width: 39%;
+	margin: -1% 4% 0 0;
+	font-family: "Roboto_Regular", sans-serif;
+	font-size: 190%;
+	letter-spacing: 1px;
+    line-height: 45px;
+}
+
+#screensaver {
+	display: inline-block;
+	width: 50%;
+	margin-left: 1%;
+}
+
+.first-section .cta-aside.cta-2 {
+	text-align: center;
+    width: 25%;
+    top: 96.9%;
+    left: 21%;
+}
+
+.cta-aside.cta-2 a {
+    display: inline;
+}
+
+.cta-2 .cta-text {
+    position: absolute;
+    top: calc(50% - 67.5px);
+    left: 17%;
+}
+
+.cta-2 .cta-text span {
+	display: block;
+}
+
+/* MAIN SECTION */ 
+
+.main-section {
+    margin: 24.5% auto 0 auto;
+}
+
+.main-section .left-side {
+	position: relative;
+}
+
+.main-section .left-side.side-1 {
+    left: -8.8%;
+}
+
+#museum-img {
+	display: inline-block;
+	position: relative;
+	width: 70%;
+	left: 0;
+}
+
+.main-section .left-side .descr, 
+.main-section .right-side .descr {
+	vertical-align: top;
+	display: inline-block;
+	width: 25%;
+	margin-top: -1%;
+	margin-left: 4%;
+	font-family: "Roboto_Regular", sans-serif;
+	font-size: 190%;
+	letter-spacing: 1px;
+    line-height: 45px;
+}
+
+#gif-11 {
+	position: absolute;
+    width: 19%;
+    left: 85%;
+    top: 72%;
+}
+
+.main-section .right-side {
+	margin: 10% auto;
+}
+
+.right-side .video-1,
+.left-side .video-2 {
+	display: inline-block;
+	position: relative;
+	width: 70%;
+}
+
+.video-1 {
+	left: 3.5%;
+}
+
+.main-section .right-side .descr {
+    width: 23%;
+    margin-left: 3%;
+    text-align: right;
+    display: inline-block;
+}
+
+.main-section .right-side .descr span:not(.minimize),
+.main-section .left-side .descr span:not(.minimize) {
+    font-size: 55%;
+    margin: 20% 0;
+    display: block;	
+	letter-spacing: 1px;
+}
+
+#gif-12 {
+	position: absolute;
+    left: 63%;
+    top: 70%;
+    width: 40%;
+    z-index: 5;
+}
+
+.main-section video {
+	cursor: url("../img/cursor/ui_audio_play.png"), pointer;
+}
+
+/* END SECTION */
+
+.end-section {
+	margin: 10% auto 5% auto;
+	position: relative;
+}
+
+.end-section .twitter {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.twitter {
+	padding: 3.5%;
+	background-color: rgba(46, 192, 211, .1);
+	 
+}
+
+.twitter-text {
+	width: 75%;
+	font-family: "Roboto_Regular", sans-serif;
+	font-size: 110%;
+	line-height: 27px;
+	letter-spacing: 1px;
+    margin-left: 26%;
+}
+
+.twitter h1 {
+	font-family: "Roboto_Regular", sans-serif;
+	font-size: 170%;
+	letter-spacing: 1px;
+    line-height: 45px;
+    margin-top: -3.5%;
+}
+
+.twitter-text div {
+	margin: 2% 0 8% 0;    
+}
+
+.twitter a {
+	display: inline;
+    padding: 3px 0;
+    background: url("../img/bg_links.png") repeat-x;
+    background-position: 0 -17px;
+    transition: all 0.2s ease-out;
+}
+
+.twitter a:hover {
+	background-position: 0 -41px;
+    color: white;
+}
+
+.twitter span {
+	display: block;
+	margin: 5% 0 -2% 0;
+}
+
+.twitter-2 {
+	margin-left: 5.6%;
+}
+
+.end-section div:first-child {
+	margin: 0 0 5% 0; 
+}
+
+.end-section .id-pic {
+	width: 20%;
+	float: left;
+	padding-right: 5%;
+}
+
+.quote-container {
+	width: 51.6%;
+	display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 2.5%;
+    margin-top: -2%;
+}
+
+.quote-container h1 {
+	font-family: "Roboto_Light", sans-serif;
+	font-size: 310%;
+	letter-spacing: 1px;
+	line-height: 65px;    
+	width: 100%;
+    margin: 5% auto;
+}
+
+.quote-container span {
+	display: block;
+	font-family: "Roboto_Regular", sans-serif;
+	font-size: 110%;
+	letter-spacing: 1px;
+}
+
+.quote-container img {
+    width: 40%;
+    margin-top: -5%;
+}
+
+#gif-13 {
+	position: absolute;
+	width: 20%;
+    top: 25%;
+    left: 36%;
+}
+
+/* FOOTER */ 
+
+.svg-container {
+    display: block;
+    text-align: center;
+}
+
+.footer-links {
+	width: 80%;
+	margin: auto;
+}
+
+footer svg {
+    width: 78.5%;
+    margin: 0 auto;
+}
+
+footer .left-side, footer .right-side {
+    margin-top: 17%;
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+footer .left-side {
+	width: 53%;
+	margin-left: -3%;
+}
+
+footer .right-side {
+	position: relative;
+	width: 40%;
+	margin-left: 3.5%;
+}
+
+#lineart {
+	width: 20%;
+	position: absolute;
+	left: 80%;
+	top: 120%;
+}
+
+footer .top {
+	margin-top: 9%;
+}
+
+.exhibitions {
+	margin-top: 18%;
+}
+
+.partners span, 
+.exhibitions span,
+.press span {
+    font-family: "Roboto_Regular", sans-serif;
+    font-size: 190%;
+    letter-spacing: 1px;
+    line-height: 45px;
+    display: inline;
+}

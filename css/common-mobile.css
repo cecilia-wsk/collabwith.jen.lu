@@ -1,0 +1,184 @@
+/* begin CSS */
+html {
+	cursor: auto;
+}
+
+body {
+	overflow-x: hidden;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+}
+
+/* navigation */
+
+nav a:not(.progress-bar-link) {
+	background: transparent;
+}
+
+
+nav a:not(.progress-bar-link):hover {
+	color: black;
+}
+
+.universal {
+	font-size: 110%;
+}
+
+.progress-bar {
+	width: 152.14px;
+	left: calc(50% - 76.07px);
+}
+
+nav a {
+	font-size: 90%;
+}
+
+.projects {
+	left: 16px;
+}
+
+.about {
+	right: 16px;
+}
+
+.previous {
+	left: -17px;
+}
+
+.next {
+	right: -4px;
+}
+
+/* header */ 
+
+.header-title {
+    margin: 21% auto 9% auto;
+}
+
+.header-title h1 {
+    font-size: 125%;
+}
+
+/* video */ 
+
+.video-main figcaption:not(#germanTV) {
+	display: none;
+}
+
+/* first section */
+
+.first-section .main-title {
+	font-size: 125%;
+    line-height: 25px;
+}
+
+.first-section .description {
+	font-size: 90%;
+    line-height: 20px;
+	letter-spacing: normal;
+}
+
+/* links */
+
+.partners h3, .press h3, .exhibitions h3, .awards h3 {
+    font-size: 70%;
+}
+
+.partners a, .press a, .exhibitions a, .awards a, 
+ .partners span, .press span, .exhibitions span, .awards span {
+	font-size: 90%;
+    line-height: 20px;
+	letter-spacing: normal;
+}
+
+.partners a, .press a, .exhibitions a, .awards a {
+  text-decoration: underline;
+}
+
+
+/* footer */ 
+
+footer .top a, footer .construct {
+    font-size: 70%;
+}
+
+footer .top a {
+	left: calc(50% - 20.9px);
+}
+
+footer .top img {
+    position: relative;
+    width: 17%;
+    top: -5px;
+}
+
+footer .construct, footer .top {
+	margin: 15% auto;
+}
+
+.construct a {
+    text-decoration: underline;
+}
+
+.email {
+    width: 13%;
+}
+
+.busy {
+	width: 17.5%;
+}
+
+.copyright {
+	width: 11.5%;
+}
+
+@media screen and (orientation: landscape) { 
+
+	.header-title h1 {
+	    font-size: 165%;
+	}
+
+	.first-section .main-title {
+	    font-size: 165%;
+	    line-height: 30px;
+	}
+
+	.first-section .description {
+		font-size: 120%;
+	    line-height: 25px;
+		letter-spacing: normal;
+	}
+
+	.partners h3, .press h3, .exhibitions h3, .awards h3 {
+	    font-size: 100%;
+	}
+
+	footer .top a, 
+	footer .construct {
+	    font-size: 100%;
+	}
+
+
+	footer .top a {
+		font-size: 100%;
+		left: calc(50% - 24.94px);
+	}
+
+	.email {
+    	width: 9%;
+	}
+
+	.copyright {
+		width: 7.5%;
+	}
+
+	.partners a, .press a, .exhibitions a, .awards a, 
+	.partners span, .press span, .exhibitions span, .awards span {
+		font-size: 120%;
+	    line-height: 25px;
+		letter-spacing: normal;
+	}
+
+
+}

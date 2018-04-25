@@ -1,0 +1,91 @@
+.header-title svg {
+    width: 55.5%;
+}
+
+.first-section .lineart-1 {
+	margin-top: -53%;
+}
+
+.gif-mobile {
+    display: block;
+}
+
+#gif-1, #gif-2 {
+	display: none;
+}
+
+.social-text {
+	padding-top: 0;
+}
+
+.social-text .main-title {
+	width: 90%;
+	margin-bottom: 11%;
+}
+
+.main-section .main-title {
+    font-size: 275%;
+    line-height: 39px;
+}
+
+.main-section .description,
+.first-line .left-side div {
+	font-size: 90%;
+    line-height: 20px;
+	letter-spacing: normal;
+}
+
+.z-zeitgeist .main-title { 
+	margin-bottom: 6%;
+}
+
+.description a {
+    text-decoration: underline;
+}
+
+.first-line .left-side p {
+	font-size: 70%;
+	letter-spacing: normal;
+    line-height: 20px;
+}
+
+.first-line .left-side {
+	width: 49%;
+	left: 0;
+}
+
+.first-line .right-side {
+	width: 49%;
+	left: 0;
+}
+
+.third-line #lineart-3 {
+	left: 2%;
+}
+
+.end-section svg {
+	width: 86.5%;
+}
+
+@media screen and (orientation: landscape) { 
+
+	.main-section .description, .first-line .left-side div {
+	    font-size: 120%;
+	    line-height: 25px;
+	}
+	.main-section .main-title {
+	    font-size: 420%;
+	    line-height: 59px;
+	}
+
+	.social-text {
+		margin-bottom: 47.8%;
+	}
+
+	.first-line .left-side p {
+	    font-size: 100%;
+	    letter-spacing: 1px;
+	    line-height: 20px;
+	}
+
+}

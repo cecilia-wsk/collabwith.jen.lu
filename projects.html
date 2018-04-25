@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/fonts/fonts.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" media="screen and (max-width: 770px)" href="css/common-mobile.css" type="text/css" />
+    <link rel="stylesheet" media="screen and (max-width: 770px)" href="css/projects-mobile.css" type="text/css" />
+  </head>
+
+  <body>
+
+    <div class="projects-outline">
+      <div class="_feelthatshit"></div>
+      <div class="_7on7nyc"></div>
+      <div class="_simplifythatshit"></div>
+      <div class="_cachemonet"></div>
+      <div class="_resizethatshit"></div>
+      <div class="_abcbook"></div>
+      <div class="_straightthug"></div>
+      <div class="_t_shirts"></div>
+    </div>
+
+    <div class="container">
+
+
+      <header>
+        <nav>
+          <a class="close" href="javascript:history.back()" title="Close"></a>
+          <div class="progress-bar">
+            <a class="universal label progress-bar-link" href="index.html" title="Universalscene">Universalscene</a>
+          </div>
+        </nav>
+      </header>
+
+      <section class="main-section">
+        <div class="first-column">
+          <div><a id="feelthatshit" class="project-links" href="projects/feelthatshit/feelthatshit.html">#FEELTHATSHIT</a></div>
+          <div><a id="7on7nyc" class="project-links" href="projects/7on7nyc/7on7nyc.html">#7ON7NYC</a></div>
+          <div><a id="simplifythatshit" class="project-links" href="projects/simplifythatshit/simplifythatshit.html">#SIMPLIFYTHATSHIT</a></div>
+        </div>
+        <div class="second-column">
+          <div><a id="cachemonet" class="project-links" href="projects/cachemonet/cachemonet.html">#CACHEMONET</a></div>
+          <div><a id="resizethatshit" class="project-links" href="projects/resizethatshit/resizethatshit.html">#RESIZETHATSHIT</a></div>
+          <div><a id="abcbook" class="project-links" href="projects/abcbook/abcbook.html">#ABCBOOK</a></div>
+        </div>
+        <div class="third-column">
+          <div><a id="straightthug" class="project-links" href="projects/straightthug/straightthug.html">#STRAIGHTTHUG</a></div>
+          <div><a id="t_shirts" class="project-links" href="projects/t_shirts/t_shirts.html">T_SHIRTS</a></div>
+        </div>
+      </section>
+
+      <aside class="gif-container">
+        <img id="lineart-1" src="img/home/home_projects_lineart_1.gif" alt="lineart">
+        <img id="lineart-2" src="img/home/home_projects_lineart_2.gif" alt="lineart">
+        <img id="lineart-3" src="img/home/home_projects_lineart_3.gif" alt="lineart">
+      </aside>
+
+    </div>
+
+    <script src="js/libs/jquery-3.0.0.min.js"></script>
+    <script src="js/projects.js"></script>
+
+    <script type="text/javascript">
+      $(document).click(function() {
+        history.back(); //Go to the previous page
+      });
+      $(".main-section div a, nav a").click(function(e) {
+        e.stopPropagation(); 
+      });
+    </script>
+
+  </body>
+
+</html>

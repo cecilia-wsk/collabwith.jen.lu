@@ -1,0 +1,466 @@
+.header-title svg {
+    width: 83%;
+}
+
+.gif-bg {
+	margin-top: -5%;
+}
+
+/* header */
+
+#gif-1 {
+	width: 65%;
+}
+
+.gif-bg img:not(#gif-1) {
+	width: 32.5%;
+}
+
+#gif-2 {
+	top: 20%;
+}
+
+#gif-3 {
+	top: 20%;
+    left: 32.5%;
+}
+
+#gif-4 {
+	top: 20%;
+    left: 65%;
+}
+
+#gif-7 {
+	top: 30%;
+}
+
+#gif-8 {
+	top: 30%;
+	left: 32.5%;
+}
+
+/* fin header */
+
+#gif-9 {
+    top: 80%;
+    left: 67%;
+}
+
+#gif-10 {
+    top: 96%;
+    left: 34.5%;
+}
+
+#gif-11 {
+    top: 96%;
+    left: 67%;
+}
+
+#gif-14 {
+    top: 106%;
+    left: 2.2%;
+}
+
+#gif-15 {
+    top: 106%;
+    left: 34.5%;
+}
+
+#gif-16 {
+    top: 106%;
+    left: 67%;
+}
+
+#gif-20 {
+    top: 115.9%;
+    left: 2.2%;
+}
+
+#gif-6 {
+    top: 134.8%;
+    left: 34.5%;
+}
+
+#gif-5 {
+	top: 151%;
+    left: 67%;
+}
+
+#gif-12 {
+    top: 161%;
+    left: 2.2%;
+}
+
+#gif-13 {
+    top: 161%;
+    left: 34.5%;
+}
+
+#gif-17 {
+    top: 171%;
+    left: 2.2%;
+}
+
+#gif-18 {
+    top: 171%;
+    left: 34.5%;
+}
+
+#gif-19 {
+    top: 171%;
+    left: 67%;
+}
+
+#gif-21 {
+    top: 181%;
+    left: 34.5%;
+}
+
+.first-section {
+    margin-top: -65%;
+}
+
+.first-section .description {
+	margin-top: 11%;
+}
+
+.first-section .description div:first-child {
+    width: 52%;
+    margin-left: 6%;
+}
+
+.gif-aside {
+	margin-top: 275.1%;
+}
+
+#gif-aside-1 {
+    left: -149%;
+    width: 83%;
+}
+
+#gif-aside-2 {
+    width: 167%;
+    left: -66%;
+}
+
+#gif-aside-3 {
+    left: -66%;
+    width: 83%;
+}
+
+.first-line #lineart-1 {
+    position: absolute;
+    left: 72%;
+    top: 475%;
+}
+
+.main-section {
+	margin-top: 50%;
+}
+
+.mobile-section .first-line .mobile:nth-of-type(2) {
+    margin: auto; 
+}
+
+.main-section .mobile-section .mobile {
+	margin: 20% auto;
+	display: block;
+	width: 60%;
+}
+
+.frames-section .cta-text {
+    left: 66%;
+    top: -221%;
+}
+
+.frames-section .cta-text div {
+    width: 88%;
+    left: 6%;
+    top: 22%;
+}
+
+.frames-section .cta-text img {
+    width: 100%;
+}
+
+.second-line {
+	margin: auto;
+}
+
+.mobile-gif {
+	left: 0;
+}
+
+.gif {
+    position: absolute;
+    width: 59%;
+    left: 20.5%;
+    top: 20.5%;
+}
+
+.second-line .mobile {
+	position: static;
+}
+
+.frames-section {
+    margin-bottom: 15%;
+}
+
+.frames-section .cta-text h1 {
+    font-size: 250%;
+}
+
+.frames-section .cta-text span {
+    font-size: 90%;
+    letter-spacing: normal;
+    line-height: 20px;
+}
+
+.frames-section img {
+    display: block;
+    width: 85%;
+}
+
+.frames-section img:not(.frame-4) {
+	margin: 0 auto 20% auto;
+}
+
+.frame-2 {
+    left: 0;
+}
+
+.frame-3, .frame-4 {
+	left: 7.3%;
+}
+
+.frames-section img:nth-of-type(3), 
+.frames-section img:nth-of-type(4) {
+    margin-top: 0%;
+}
+
+.frames-section .thug-link {
+    letter-spacing: 1px;
+    font-size: 70%;
+    margin: 5% auto;
+    width: 90%;
+    margin-left: 7%;
+}
+
+.thug-link p {
+    line-height: 15px;
+}
+
+.formichetti .influencer-1,
+.influencer-2,
+.cassette .influencer-3  {
+	width: 40%;
+    margin-top: 1%;
+}
+
+.formichetti p {
+    width: 100%;
+}
+
+.end-section {
+    width: 100%;
+}
+
+.end-section a {
+	font-size: 70%;
+	text-decoration: underline;
+    background: transparent;
+}
+
+.end-section p:not(#instagram) {
+	font-size: 90%;
+    letter-spacing: normal;
+    line-height: 20px;
+}
+
+.container-influencer-2 {
+	margin: 15% 0;
+}
+
+.formichetti .lineart {
+	top: 36%;
+}
+
+.cassette p:not(#instagram) {
+     padding-left: 0%; 
+}
+
+.lineart-2 {
+    width: 20%;
+    left: 86%;
+    top: 39%;
+}
+
+.cassette figure {
+    margin: 8.5% 10%;
+}
+
+.cassette figcaption {
+    font-size: 70%;
+    letter-spacing: 1px;   
+    line-height: 15px;
+}
+
+.cassette figcaption p {
+    width: 70%;
+    font-size: 100%;
+}
+
+.influencer-1,
+.influencer-3 {
+    margin-bottom: 21%;
+}
+
+/* mobile landscape view */
+@media screen and (orientation: landscape) { 
+
+    .first-section .description {
+        margin-top: 9%;
+    }
+
+    /* fin header */
+    #gif-9 {
+        top: 64%;
+        left: 67%;
+    }
+
+    #gif-10 {
+        top: 80%;
+        left: 34.5%;
+    }
+
+    #gif-11 {
+        top: 80%;
+        left: 67%;
+    }
+
+    #gif-14 {
+        top: 90%;
+        left: 2.2%;
+    }
+
+    #gif-15 {
+        top: 90%;
+        left: 34.5%;
+    }
+
+    #gif-16 {
+        top: 90%;
+        left: 67%;
+    }
+
+    #gif-20 {
+        top: 99.9%;
+        left: 2.2%;
+    }
+
+    #gif-6 {
+        top: 118.8%;
+        left: 34.5%;
+    }
+
+    #gif-5 {
+        top: 135%;
+        left: 67%;
+    }
+
+    #gif-12 {
+        top: 145%;
+        left: 2.2%;
+    }
+
+    #gif-13 {
+        top: 145%;
+        left: 34.5%;
+    }
+
+    #gif-17 {
+        top: 155%;
+        left: 2.2%;
+    }
+
+    #gif-18 {
+        top: 155%;
+        left: 34.5%;
+    }
+
+    #gif-19 {
+        top: 155%;
+        left: 67%;
+    }
+
+    #gif-21 {
+        top: 165%;
+        left: 34.5%;
+    }
+
+    .gif-aside {
+        margin-top: 256.9%;
+    }
+
+    .frames-section .cta-text {
+        top: -80%;
+        left: 68%;
+    }
+
+    .frames-section .cta-text div {
+        left: 8%;
+        top: 26%;
+    }
+
+    .frames-section .cta-text h1 {
+        font-size: 470%;
+    }
+
+    .frames-section .cta-text span {
+        font-size: 120%;
+        line-height: 25px;
+    }
+
+    .frames-section .thug-link {
+        font-size: 100%
+    }
+
+    .thug-link p {
+        line-height: 20px;
+    }
+
+    .main-section {
+        margin-top: 40%;
+    }
+
+    .main-section .mobile-section {
+        text-align: center;
+    }
+
+    .main-section .mobile-section .mobile {
+        margin: 5% 9%;
+        display: inline-block;
+        width: 30%;
+    }
+
+    .mobile-section .first-line .mobile:nth-of-type(2) {
+        margin: 5% 9%;
+    }
+
+    .end-section p:not(#instagram) {
+        font-size: 120%;
+        letter-spacing: normal;
+        line-height: 25px;
+    }
+
+    .cassette figcaption {
+        font-size: 100%;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+
+    .gif {
+        display: none;
+    }
+
+}

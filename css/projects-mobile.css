@@ -1,0 +1,89 @@
+.close {
+	font-family: "Roboto_Black", sans-serif;
+	position: fixed;
+	z-index: 1500;
+    left: 32px;
+    top: 5.5%;
+}
+
+.close::after, 
+.close::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 0;
+    box-shadow: 0 0 0 1px black;
+}
+
+.close::after {
+    transform: rotate(45deg);
+}
+
+.close::before {
+    transform: rotate(-45deg);
+}
+
+/* mobile portrait view */
+@media screen and (min-height: 450px) { 
+
+    .main-section {
+    	position: fixed;
+    	left: 50%;
+    	top: 50%;
+    	transform: translate(-50%, -50%);
+      	margin-top: 0;
+    }
+
+    .first-column, .second-column, .third-column {
+        font-size: 150%;
+    }
+
+    .first-column, .second-column, .third-column {
+        display: block; 
+        width: 100%;
+    }
+
+    .main-section div>div {
+    	font-size: 80%;
+        margin: 9% auto;
+    }
+
+    #lineart-1 {
+        width: 17%;
+        left: 11%;
+        top: 13%;
+    }
+
+    #lineart-2 {
+        width: 12%;
+        right: 13%;
+        top: 14%;
+    }
+
+    #lineart-3 {
+        width: 11%;
+        left: 66.5%;
+        bottom: 7%;
+    }
+
+}
+
+/* mobile landscape view */ 
+@media screen and (orientation: landscape) { 
+        
+    .first-column, .second-column, .third-column {
+        font-size: 110%;
+    }
+
+
+}
+
+/* iphone5 */
+@media screen and (max-height: 320px) { 
+        
+    .first-column, .second-column, .third-column {
+        font-size: 90%;
+    }
+
+
+}

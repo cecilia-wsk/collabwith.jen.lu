@@ -1,0 +1,208 @@
+/* header */ 
+
+.header-title svg {
+    width: 101%;
+}
+
+/* first-section */ 
+
+.first-section .main-title {
+    text-align: left;
+}
+
+.main-title {
+	width: 84%;
+}
+
+.first-section .online-text h2,
+.first-section .offline-text h2 {
+    font-size: 275%;
+    margin-left: 41%;
+}
+
+.first-section .offline-text h2 {
+	margin-left: -2%;    
+    margin-bottom: 8%;
+}
+
+.online {
+    width: 67%;
+    margin-left: 0%;
+}
+
+.online .online-text {
+    margin-top: 0%;
+}
+
+.online-text .description {
+    margin-top: 9.8%;
+}
+
+.offline {
+	margin-top: 35.5%;
+}
+
+.offline-text {
+    left: 58%;
+    top: -16.3%;
+}
+
+.offline .main-title {
+	margin-bottom: -8%;
+}
+
+.first-section figcaption {
+    font-size: 70%;
+    letter-spacing: 1px;
+}
+
+.first-section figcaption p {
+    margin: 3px 0;
+}
+
+#jpg-1 {
+    left: 0;
+    width: 63%;
+}
+
+#jpg-2 {
+    left: 27%;
+}
+
+
+#jpg-1 figcaption {
+    top: 73.5%;
+    left: calc(50% - 75.3px);
+}
+
+#jpg-2 figcaption:nth-of-type(1) {
+    top: 77%;
+    left: calc(28% - 48.3px);
+}
+
+#jpg-2 figcaption:nth-of-type(2) {
+    top: 77%;
+    width: 110px;
+    left: calc(72.5% - 55px);
+}
+
+#jpg-2 figcaption:nth-of-type(2) p:nth-of-type(2) {
+    line-height: 16px;
+    margin-top: -3px;
+}
+
+#tee-2 figcaption p:nth-of-type(2) {
+    line-height: 16px;
+}
+
+.offline .cta-aside {
+    width: 25%;
+    top: 47%;
+    left: 0.5%;
+}
+
+.offline .cta-text {
+	font-size: 90%;
+    top: calc(50% - 30px);
+    line-height: 20px;
+}
+
+.offline .description a {
+    text-decoration: underline;
+    background: transparent;
+}
+
+.tee-container {
+	margin-top: 5%;
+}
+
+#tee-2 {
+    position: relative;
+    top: 20px;
+}
+
+#tee-3 {
+	margin-left: 10%;
+}
+
+#germanTV p:nth-of-type(2) {
+	display: none;
+}
+
+#lineart-3 {
+    top: 193%;
+    left: 63%;
+}
+
+.press, .partners {
+    display: block;
+}
+
+.partners {
+	margin-top: 10%;
+}
+
+.end-section svg {
+    margin: 0 auto;
+    width: 86.5%;
+}
+
+.video-footer video {
+    display: none;
+}
+
+#video-mobile {
+    display: block;
+    margin: 10% auto -16%;
+}
+
+@media screen and (orientation: landscape) { 
+
+    .offline .cta-text {
+        font-size: 120%;
+        line-height: 25px;
+        top: calc(50% - 37.5px);
+    }
+    .first-section .online-text h2, 
+    .first-section .offline-text h2 {
+        font-size: 420%;
+    }
+    .first-section .online-text h2 {
+        margin-left: 48%;
+    }
+    .first-section .offline-text h2 {
+        margin-bottom: 8%;
+    }
+    .offline-text {
+        top: 3.8%;
+    }
+    .first-section figcaption {
+        font-size: 100%;
+        letter-spacing: 1px;
+    }
+    #jpg-1 figcaption {
+        top: 75%;
+        left: calc(50% - 102.8px);
+    }
+    #jpg-2 figcaption:nth-of-type(1), 
+    #jpg-2 figcaption:nth-of-type(2) {
+        top: 80%;
+    }
+    #jpg-2 figcaption:nth-of-type(1) {
+        left: calc(28% - 65.5px);
+    }
+    #jpg-2 figcaption:nth-of-type(2) {
+        width: 200px;
+        left: calc(72.5% - 100px);
+    }
+    #tee-2 {
+        position: static;
+    }
+    #video-mobile {
+        margin: 10% auto -17%;
+    }
+
+}
+
+
+
